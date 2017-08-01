@@ -19,9 +19,12 @@ class HtmlOutputer(object):
 
         for data in self.datas:
             fout.write('<tr>')
-            fout.write('<td>%s</td>' % unquote(data['url']))
-            fout.write('<td>%s</td>' % data['title'])
-            fout.write('<td>%s</td>' % data['summary'])
+            fout.write('<td style="border:1px solid #dedede;">%s</td>' %
+                       unquote(data['url']))
+            fout.write('<td style="border:1px solid #dedede;">%s</td>' %
+                       data['title'])
+            fout.write('<td style="border:1px solid #dedede;">%s</td>' %
+                       data['summary'])
 
             fout.write('</tr>')
 
