@@ -1,0 +1,8 @@
+{
+  "python.unitTest.pyTestArgs": [
+    "baike_spider"
+  ],
+  "python.unitTest.pyTestEnabled": true,
+  "python.unitTest.unittestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false
+}

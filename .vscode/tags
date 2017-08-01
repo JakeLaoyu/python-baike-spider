@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	../test_bs4.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
+baike_spider.py	../baike_spider.py	1;"	kind:file	line:1
+cj	../test_urllib2.py	/^cj = http.cookiejar.CookieJar()$/;"	kind:variable	line:21
+cookiejar	../test_urllib2.py	/^import http.cookiejar$/;"	kind:namespace	line:2
+http	../test_urllib2.py	/^import http.cookiejar$/;"	kind:namespace	line:2
+links	../test_bs4.py	/^links = soup.find_all('a')$/;"	kind:variable	line:13
+opener	../test_urllib2.py	/^opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))$/;"	kind:variable	line:22
+request	../test_bs4.py	/^import urllib.request$/;"	kind:namespace	line:1
+request	../test_urllib2.py	/^request = urllib.request.Request(url)$/;"	kind:variable	line:13
+response1	../test_bs4.py	/^response1 = urllib.request.urlopen(url)$/;"	kind:variable	line:7
+response1	../test_urllib2.py	/^response1 = urllib.request.urlopen(url)$/;"	kind:variable	line:7
+response2	../test_urllib2.py	/^response2 = urllib.request.urlopen(url)$/;"	kind:variable	line:15
+response3	../test_urllib2.py	/^response3 = urllib.request.urlopen(url)$/;"	kind:variable	line:24
+soup	../test_bs4.py	/^soup = BeautifulSoup(response1.read(), 'html.parser', from_encoding="urf-8")$/;"	kind:variable	line:10
+test_bs4.py	../test_bs4.py	1;"	kind:file	line:1
+test_urllib2.py	../test_urllib2.py	1;"	kind:file	line:1
+url	../test_bs4.py	/^url = "https:\/\/i.jakeyu.top"$/;"	kind:variable	line:5
+url	../test_urllib2.py	/^url = "https:\/\/i.jakeyu.top"$/;"	kind:variable	line:4
+urllib	../test_bs4.py	/^import urllib.request$/;"	kind:namespace	line:1
+urllib	../test_urllib2.py	/^import urllib$/;"	kind:namespace	line:1
