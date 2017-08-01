@@ -1,3 +1,6 @@
+from urllib.parse import unquote
+
+
 class HtmlOutputer(object):
     def __init__(self):
         self.datas = []
@@ -16,7 +19,7 @@ class HtmlOutputer(object):
 
         for data in self.datas:
             fout.write('<tr>')
-            fout.write('<td>%s</td>' % data['url'])
+            fout.write('<td>%s</td>' % unquote(data['url']))
             fout.write('<td>%s</td>' % data['title'])
             fout.write('<td>%s</td>' % data['summary'])
 

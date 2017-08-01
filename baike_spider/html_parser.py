@@ -10,8 +10,6 @@ class HtmlParser(object):
         for link in links:
             new_url = link['href']
             new_full_url = urljoin(page_url, new_url)
-            print('new_full_url')
-            print(new_full_url)
             new_urls.add(new_full_url)
         return new_urls
 
