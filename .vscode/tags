@@ -4,23 +4,58 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	../baike_spider/html_parser.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
 BeautifulSoup	../test_bs4.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
-baike_spider.py	../baike_spider.py	1;"	kind:file	line:1
+HtmlDownloader	../baike_spider/html_downloader.py	/^class HtmlDownloader(object):$/;"	kind:class	line:4
+HtmlOutputer	../baike_spider/html_outputer.py	/^class HtmlOutputer(object):$/;"	kind:class	line:4
+HtmlParser	../baike_spider/html_parser.py	/^class HtmlParser(object):$/;"	kind:class	line:6
+SpiderMain	../baike_spider/spider_main.py	/^class SpiderMain(object):$/;"	kind:class	line:7
+UrlManager	../baike_spider/url_manager.py	/^class UrlManager(object):$/;"	kind:class	line:1
+__init__	../baike_spider/html_outputer.py	/^    def __init__(self):$/;"	kind:member	line:6
+__init__	../baike_spider/spider_main.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../baike_spider/url_manager.py	/^    def __init__(self):$/;"	kind:member	line:2
+_get_new_data	../baike_spider/html_parser.py	/^    def _get_new_data(self, page_url, soup):$/;"	kind:member	line:16
+_get_new_urls	../baike_spider/html_parser.py	/^    def _get_new_urls(self, page_url, soup):$/;"	kind:member	line:7
+add_new_url	../baike_spider/url_manager.py	/^    def add_new_url(self, url):$/;"	kind:member	line:6
+add_new_urls	../baike_spider/url_manager.py	/^    def add_new_urls(self, urls):$/;"	kind:member	line:12
 cj	../test_urllib2.py	/^cj = http.cookiejar.CookieJar()$/;"	kind:variable	line:21
+collect_data	../baike_spider/html_outputer.py	/^    def collect_data(self, data):$/;"	kind:member	line:9
 cookiejar	../test_urllib2.py	/^import http.cookiejar$/;"	kind:namespace	line:2
+craw	../baike_spider/spider_main.py	/^    def craw(self, root_url):$/;"	kind:member	line:14
+download	../baike_spider/html_downloader.py	/^    def download(self, url):$/;"	kind:member	line:6
+get_new_url	../baike_spider/url_manager.py	/^    def get_new_url(self):$/;"	kind:member	line:21
+has_new_url	../baike_spider/url_manager.py	/^    def has_new_url(self):$/;"	kind:member	line:18
+html_downloader	../baike_spider/spider_main.py	/^import html_downloader$/;"	kind:namespace	line:2
+html_downloader.py	../baike_spider/html_downloader.py	1;"	kind:file	line:1
+html_outputer	../baike_spider/spider_main.py	/^import html_outputer$/;"	kind:namespace	line:4
+html_outputer.py	../baike_spider/html_outputer.py	1;"	kind:file	line:1
+html_parser	../baike_spider/spider_main.py	/^import html_parser$/;"	kind:namespace	line:3
+html_parser.py	../baike_spider/html_parser.py	1;"	kind:file	line:1
 http	../test_urllib2.py	/^import http.cookiejar$/;"	kind:namespace	line:2
 links	../test_bs4.py	/^links = soup.find_all('a')$/;"	kind:variable	line:13
+obj_spider	../baike_spider/spider_main.py	/^    obj_spider = SpiderMain()$/;"	kind:variable	line:38
 opener	../test_urllib2.py	/^opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))$/;"	kind:variable	line:22
+output_html	../baike_spider/html_outputer.py	/^    def output_html(self):$/;"	kind:member	line:14
+parse	../baike_spider/html_parser.py	/^    def parse(self, page_url, html_cont):$/;"	kind:member	line:32
+re	../baike_spider/html_parser.py	/^import re$/;"	kind:namespace	line:3
+request	../baike_spider/html_downloader.py	/^import urllib.request$/;"	kind:namespace	line:1
 request	../test_bs4.py	/^import urllib.request$/;"	kind:namespace	line:1
 request	../test_urllib2.py	/^request = urllib.request.Request(url)$/;"	kind:variable	line:13
 response1	../test_bs4.py	/^response1 = urllib.request.urlopen(url)$/;"	kind:variable	line:7
 response1	../test_urllib2.py	/^response1 = urllib.request.urlopen(url)$/;"	kind:variable	line:7
 response2	../test_urllib2.py	/^response2 = urllib.request.urlopen(url)$/;"	kind:variable	line:15
 response3	../test_urllib2.py	/^response3 = urllib.request.urlopen(url)$/;"	kind:variable	line:24
+root_url	../baike_spider/spider_main.py	/^    root_url = 'https:\/\/baike.baidu.com\/item\/Python'$/;"	kind:variable	line:37
 soup	../test_bs4.py	/^soup = BeautifulSoup(response1.read(), 'html.parser', from_encoding="urf-8")$/;"	kind:variable	line:10
+spider_main.py	../baike_spider/spider_main.py	1;"	kind:file	line:1
 test_bs4.py	../test_bs4.py	1;"	kind:file	line:1
 test_urllib2.py	../test_urllib2.py	1;"	kind:file	line:1
+unquote	../baike_spider/html_outputer.py	/^from urllib.parse import unquote$/;"	kind:namespace	line:1
 url	../test_bs4.py	/^url = "https:\/\/i.jakeyu.top"$/;"	kind:variable	line:5
 url	../test_urllib2.py	/^url = "https:\/\/i.jakeyu.top"$/;"	kind:variable	line:4
+url_manager	../baike_spider/spider_main.py	/^import url_manager$/;"	kind:namespace	line:1
+url_manager.py	../baike_spider/url_manager.py	1;"	kind:file	line:1
+urljoin	../baike_spider/html_parser.py	/^from urllib.parse import urljoin$/;"	kind:namespace	line:1
+urllib	../baike_spider/html_downloader.py	/^import urllib.request$/;"	kind:namespace	line:1
 urllib	../test_bs4.py	/^import urllib.request$/;"	kind:namespace	line:1
 urllib	../test_urllib2.py	/^import urllib$/;"	kind:namespace	line:1
